@@ -1,0 +1,16 @@
+# Maven build output
+target/
+
+# Eclipse files
+.classpath
+.project
+.settings/
+.factorypath
+
+# Spring Boot sensitive config — NEVER upload this
+src/main/resources/application.properties
+
+# OS files
+.DS_Store
+Thumbs.db
+*.class
