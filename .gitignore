@@ -1,3 +1,6 @@
+
+
+
 # Maven build output
 target/
 
@@ -7,7 +10,7 @@ target/
 .settings/
 .factorypath
 
-# Spring Boot sensitive config — NEVER upload this
+# Spring sensitive config - NEVER upload
 src/main/resources/application.properties
 
 # OS files
