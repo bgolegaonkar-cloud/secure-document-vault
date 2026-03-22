@@ -17,3 +17,6 @@ src/main/resources/application.properties
 .DS_Store
 Thumbs.db
 *.class
+
+frontend/node_modules/
+frontend/build/
