@@ -71,9 +71,11 @@ public class AuthController {
 
             // Step 4: Send token back to React
             return ResponseEntity.ok(Map.of(
-                "token", token,
-                "username", credentials.get("username")
-            ));
+            	    "token", token,
+            	    "username", credentials.get("username"),
+            	    "role", authentication.getAuthorities()
+            	               .iterator().next().getAuthority()
+            	));
 
         } catch (Exception e) {
             return ResponseEntity.badRequest().body(Map.of(
